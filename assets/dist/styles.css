@@ -1,0 +1,1065 @@
+@font-face {
+    font-family: "Frutiger Arabic";
+    src: url(../../assets/fonts/frutiger-lt-arabic-65-bold.ttf);
+}
+@font-face {
+    font-family: "Frutiger LT Arabic";
+    src: url(../../assets/fonts/FrutigerLTArabic.ttf);
+}
+html::-webkit-scrollbar {
+    display: none;
+  }
+.nav-link, .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    font: normal normal normal 14px/40px Frutiger LT Arabic;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.header.container {
+    min-width: 100%;
+    height: 15vh;
+    z-index: 9;
+    position: relative;
+    display: block;
+}
+.progPage .header.container {
+    background: #38376e;
+}
+.header.container .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.carousel-item {
+    float: none !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+}
+.firSection .carousel.slide {
+    position: relative;
+    height: 85vh;
+    padding: 100px;
+}
+.firSection .carousel-inner {
+    height: 100vh;
+    position: absolute;
+    top: -99px;
+    left: 0;
+    width: 100%;
+}
+.firSection .carousel-inner .carousel-item{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    top: 0 !important;
+    position: absolute;
+    left: 0;
+}
+.firSection button.carousel-control-next, button.carousel-control-prev {
+    height: fit-content;
+    display: flex;
+    width: fit-content;
+     margin: auto 0 100px 100px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 3px;
+}
+.firSection button.carousel-control-next{
+    margin-left: 40px;
+}
+.secSection {
+    position: relative;
+    display: flex;
+    padding: 100px 70px;
+    background: #fff;
+}
+.secSecImg {
+    background: transparent linear-gradient( 
+107deg, #F8F9FB 0%, #C4C7CC 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 45%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    height: 53vh;
+    margin-right: 0px;
+}
+.frtSection {
+    position: relative;
+    background: #fff;
+    padding: 100px 0 1px;
+}
+.secSecImg img{
+    width: auto;
+    margin: auto;
+    top: -75px;
+    position: relative;
+}
+img.mainBg {
+    position: fixed;
+    width: 100%;
+    height: 112vh;
+    z-index: -1;
+    top: 0;
+}
+a.subLogo{
+    position: relative;
+    margin-right: 60px !important;
+}
+.Lang{
+    text-align: right;
+    font: normal normal normal 16px/12px Frutiger LT Arabic;
+    letter-spacing: 0.21px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+i.SI {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+}
+header > img:first-child {
+    position: relative;
+    width: 5%;
+    margin: 0 50px 0 100px;
+}
+a.Logo.secLogo > img {
+    position: relative;
+    width: 80%;
+    margin: 10px 0;
+}
+.nav-link, .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background: none !important;
+}
+.header.container ul.nav.nav-pills {
+    direction: rtl;
+    margin: auto;
+}
+.FixedSec {
+    position: fixed;
+    width: 100%;
+    height: 35%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -11;
+}
+.firSection .carousel-item h3 {
+    font: normal normal bold 60px Frutiger Arabic;
+    /* font: normal normal bold 75px/12px Frutiger Arabic; */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: relative;
+    max-width: 60%;
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+    line-height: 1.4;
+    margin-top: 25vh;
+    z-index: 1;
+    margin-right: 60px;
+}
+.firSection .carousel-item p {
+    position: relative;
+    display: flex;
+    width: 60%;
+    text-align: right;
+    margin-left: auto;
+    padding: 3px;
+    font: normal normal normal 25px/40px Frutiger LT Arabic;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+    margin-right: 60px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 5px !important;
+    border-radius: 5px;
+}
+.secSection .d-block h3 {
+    color: #6766CC;
+    text-align: right;
+    font: normal normal bold 45px/65px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    position: relative;
+    display: flex;
+    max-width: 55%;
+    margin-left: auto;
+}
+.secSection .d-block p {
+    text-align: right;
+    font: normal normal normal 18px/40px Frutiger LT Arabic;
+    letter-spacing: 0.23px;
+    color: #161636;
+    opacity: 1;
+}
+.secSection .d-block {
+    padding: 50px 0;
+    max-width: 50%;
+    direction: rtl;
+}
+.secSection .btn-primary, .secSection .btn-primary:hover {
+    color: #fff;
+    background-color: #6766cc;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    background-color: #6766cc;
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+}
+.TrdSection {
+    position: relative;
+    display: block;
+    direction: rtl;
+    padding: 50px 70px;
+    background: #F8F9FB;
+}
+.targetsContainer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.Target {
+    position: relative;
+    display: flex;
+    margin: 0 1%;
+    overflow: hidden;
+    height: 325px;
+    border-radius: 25px;
+    /* max-width: 22%; */
+}
+.Target.Fst {
+    margin-right: 0;
+}
+.Target.Frt {
+    margin-left: 0;
+}
+.Target img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.Target:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000004a;
+}
+.TrdSection h3 {
+    margin-bottom: 50px;
+    text-align: right;
+    font: normal normal bold 40px/60px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #161636;
+    opacity: 1;
+}
+.Target span {
+    text-align: left;
+    font: normal normal bold 60px/30px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #ffffff94;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    z-index: 3;
+    position: absolute;
+    bottom: 30%;
+    right: 20px;
+}
+.Target p {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: right;
+    font: normal normal bold 18px/35px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.qouteContainer {
+    position: relative;
+    display: flex;
+    border-radius: 40px;
+    opacity: 1;
+    margin: 80px auto;
+    margin-top: 100px;
+    text-align: center;
+    background: #210c35;
+    height: 280px;
+    overflow: hidden;
+    align-items: center;
+    width: 90%;
+    
+}
+.heaDers > h1 {
+    /* position: absolute;
+    top: 0;
+    right: 70px; */
+    text-align: right;
+    font: normal normal bold 22px/0px Frutiger LT Arabic;
+    letter-spacing: 0;
+    color: #161636;
+    opacity: 1;
+    margin-bottom: 180px !important;
+    /* max-width: 50px !important; */
+}
+
+ul.nav.nav-tabs.heaDers li a {
+    text-align: right;
+    font: normal normal bold 17px/12px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #8899A0;
+    opacity: 1;
+    text-decoration: none;
+    margin-top: 10px;
+}
+ul.nav.nav-tabs.heaDers li a.active {
+    color: #6766CC;
+}
+ul.nav.nav-tabs.heaDers ~ .tab-content {
+    position: relative;
+    display: block;
+    overflow: auto;
+    min-width: 84.5vw;
+}
+ul.nav.nav-tabs.heaDers ~ .tab-content .col-12 {
+    min-width: 100vw;
+    padding-left: 25px;
+}
+ul.nav.nav-tabs.heaDers {
+    position: relative;
+    padding: 0;
+    border: 0;
+    margin-left: 20px;
+    width: 15vw;
+}
+ul.nav.nav-tabs.heaDers li {
+    margin: 20px 0;
+}
+.Footer {
+    position: relative;
+    display: flex;
+    padding: 50px 100px;
+    direction: rtl;
+    background: #fff;
+}
+.Footer .cols .col{
+    position: relative;
+    margin-right: auto;
+    max-width: fit-content;
+}
+.cols {
+    width: 90%;
+    display: flex;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.fifSection {
+    background: #F8F9FB;
+}
+.subFooter {
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    left: 0;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    background: #6766CC;
+}
+.subFooter p{
+    color: #fff;
+    opacity: 2;
+    z-index: 9;
+    margin: 0;
+}
+
+
+.Footer .cols .col span{
+    text-align: right;
+    font: normal normal normal 18px/12px Frutiger LT Arabic;
+    letter-spacing: 0.23px;
+    color: #161636;
+    opacity: 1;
+    margin-bottom: 20px !important;
+    position: relative;
+    display: block;
+}
+.Footer .cols p{
+    text-align: right;
+font: normal normal normal 16px/12px Frutiger LT Arabic;
+letter-spacing: 0.21px;
+color: #6F787F;
+opacity: 1;
+}
+.sideControls p {
+    font: normal normal bold 26px/110px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #161636;
+}
+.container.tabSlider {
+    position: relative;
+    direction: rtl;
+    padding: 0;
+    min-width: 100% !important;
+    padding: 50px 0;
+    display: flex;
+    margin-bottom: 30px;
+}
+.container.tabSlider ul.nav.nav-tabs{
+    display: block;
+}
+.qouteContainer .d-flex, .qouteContainer .d-block  {
+    width: 82%;
+    margin-left: auto;
+    position: relative;
+}
+img.qout1 {
+    position: absolute !important;
+    height: auto !important;
+    top: 0;
+    left: 30px !important;
+    bottom: auto !important;
+    margin: auto;
+}
+img.qout {
+    position: absolute !important;
+    height: auto !important;
+    top: 0;
+    left: auto !important;
+    right: 40px;
+    bottom: auto !important;
+    margin: auto;
+}
+.signconT {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font: normal normal normal 20px/10px Frutiger LT Arabic;
+    letter-spacing: 0.26px;
+    color: #88959F;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+.qouteContainer .d-flex h3, .qouteContainer .d-block h3{
+    margin: auto;
+    text-align: center;
+    font: normal normal bold 34px/55px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 85%;
+}
+i.mr-auto.fas.fa-quote-right, i.ml-auto.fas.fa-quote-left {
+    font-size: 20px;
+    color: darkmagenta;
+    display: flex;
+    margin-top: 10px;
+}
+.qouteContainer img {
+    position: absolute;
+    height: 75%;
+    bottom: 0;
+    left: 0;
+}
+.tabSlider .tab-content {
+    position: relative;
+    display: block;
+    width: 87%;
+}
+.tabSlider .sideControls {
+    position: relative;
+    display: block;
+    width: 13%;
+    padding-right: 20px;
+}
+.tabSlider .owl-nav {
+    position: relative;
+    display: block;
+    width: fit-content;
+    right: -13%;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    top: -120px;
+}
+.tabSlider .owl-carousel .owl-nav button.owl-next,.tabSlider  .owl-carousel .owl-nav button.owl-prev{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+.tabSlider .owl-carousel .owl-nav button.owl-next span,.tabSlider  .owl-carousel .owl-nav button.owl-prev span{
+    font-size: 2rem;
+    position: absolute;
+    top: -5px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.owl2 .owl-item {
+    width: 270px !important;
+}
+.owl2 .item {
+    background: #fff;
+    border-radius: 25px;
+}
+.Crdtext {
+    position: relative;
+    padding: 20px;
+}
+.Crdtext p:first-child {
+    font: normal normal normal 14px/9px Frutiger LT Arabic;
+    letter-spacing: -0.7px;
+    color: #8899A0;
+}
+.Crdtext p:last-child {
+    font: normal normal bold 20px/25px Frutiger LT Arabic;
+    letter-spacing: 0;
+    color: #161636;
+}
+/* .carousel-item .card{
+    width: calc(100% / 4);
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+} */
+.qouteContainer ~ section.pt-5.pb-5{
+    
+}
+.col-6.tRight {
+    max-width: fit-content;
+    display: flex;
+    margin-right: auto;
+    direction: initial;
+}
+.mr-1{
+    margin-right: 5px;
+}
+a.btn.btn-primary {
+    background: none;
+    border-radius: 50px;
+}
+.fa-arrow-left:before, .fa-arrow-right:before {
+    color: #3686fd;
+}
+.card img.img-fluid {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.TitleSection {
+    position: relative;
+    direction: rtl;
+    padding: 0 100px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #38376E;
+}
+main.progPage ~ .header.container {
+    background: #38376e;
+}
+.infoSection.d-block {
+    position: relative;
+    padding: 50px 100px;
+    direction: rtl;
+    margin-top: 20%;
+    background: #fff;
+}
+.infoSection.d-block h3{
+    text-align: right;
+    font: normal normal bold 35px Frutiger LT Arabic;
+    letter-spacing: 0.71px;
+    color: #6766CC;
+    opacity: 1;
+    width: 80%;
+}
+.infoSection.d-block p{
+    text-align: right;
+font: normal normal normal 16px/30px Frutiger LT Arabic;
+letter-spacing: 0.26px;
+color: #6F787F;
+width: 80%;
+/* text-align: justify; */
+}
+.qouteContainer p {
+    font: normal normal normal 19px/40px Frutiger LT Arabic;
+    letter-spacing: 0.25px;
+    color: #88959F;
+    margin-bottom: 0;
+}
+.infoSection.d-block button.btn.btn-primary {
+    color: #6766CC;
+    background-color: #fff;
+    border-color: #fff;
+    padding-right: 0;
+}
+.infoSection.d-block button.btn.btn-primary::after {
+    content: "\f0d7";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+}
+.tabSlider .owl-carousel .owl-item img {
+    height: 350px;
+}
+.boardContainer {
+    display: flex;
+    flex-flow: wrap;
+    place-content: center;
+    position: relative;
+    width: 100%;
+}
+.memberCard {
+    position: relative;
+    /* border: 1px solid; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 25px #F0F1F3;
+border-radius: 45px;
+opacity: 1;
+margin: 0 8px 50px;
+}
+.memberCard img {
+    display: flex;
+    width: 40%;
+    height: 35%;
+    margin: 50px auto 20px;
+    border-radius: 50px;
+}
+.memberCard p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+main.progPage .qouteContainer {
+    width: 100%;
+}
+.memberCard p  {
+    text-align: center;
+    margin-bottom: 5px;
+font: normal normal normal 16px/9px Frutiger LT Arabic;
+letter-spacing: -0.8px;
+color: #6F787F;
+opacity: 1;
+}
+.memberCard p:last-child {
+    text-align: center;
+font: normal normal bold 20px/30px Frutiger LT Arabic;
+letter-spacing: -1px;
+color: #161636;
+}
+.visionCont, .linkCont {
+    direction: rtl;
+    padding: 50px;
+}
+.linkCont {
+    padding: 0 50px;
+}
+.visionCont h4 {
+    text-align: right;
+    font: normal normal bold 35px/60px Frutiger LT Arabic;
+    letter-spacing: 0.71px;
+    color: #6766CC;
+}
+.visionCont p {
+    text-align: right;
+    font: normal normal normal 20px/40px Frutiger LT Arabic;
+    letter-spacing: 0.26px;
+    color: #6F787F;
+}
+.linkCont h4 {
+text-align: right;
+font: normal normal bold 20px/12px Frutiger LT Arabic;
+letter-spacing: 0.33px;
+color: #161636;}
+
+.linkCont p{
+text-align: right;
+font: normal normal normal 20px/45px Frutiger LT Arabic;
+letter-spacing: 0.33px;
+color: #6766CC;
+max-width: 80%;
+}
+.fifSection {
+    position: relative;
+    display: block;
+    direction: rtl;
+    padding: 50px 70px;
+    background: #F8F9FB;
+}
+main.progPage .targetsContainer {
+    display: block;
+}
+main.progPage .targetsContainer .Target{
+    margin: 50px 0;
+}
+main.progPage .Target img {
+    /* display: flex; */
+    width: auto;
+    height: auto;
+}
+.discCont {
+    position: relative;
+    width: -webkit-fill-available;
+}
+.discCont span, .discCont p {
+    text-align: right;
+    font: normal normal bold 35px/35px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #6766CC;
+}
+.discCont span{
+    top: 30px;
+}
+.discCont p {
+    position: relative;
+    margin-top: 100px;
+}
+.discCont p:last-child {
+    text-align: right;
+    font: normal normal normal 20px/40px Frutiger LT Arabic;
+    letter-spacing: 0.26px;
+    color: #161636;
+    margin-top: 40px;
+}
+main.progPage .Target:before{
+    content: none;
+}
+.fifSection .owl-nav {
+    display: none;
+}
+
+.fifSection .owl-carousel button.owl-dot {
+    background: #D5DBDD;
+    color: inherit;
+    border: 1px solid #fff;
+    padding: 0!important;
+    font: inherit;
+    width: 10px;
+    margin: 2px;
+    height: 10px;
+    border-radius: 50px;
+    /* display: inline-flex; */
+}
+.fifSection .owl-carousel button.owl-dot.active {
+    background: #6766CC;
+}
+
+.fifSection .owl-dots {
+    position: relative;
+    display: block;
+    height: fit-content;
+    /* background: #000; */
+    width: fit-content;
+    margin: auto;
+}
+.contactMain {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 20%;
+    direction: rtl;
+    padding: 100px 0;
+    background: #fff;
+}
+.rightInfo, .leftInfo {
+    position: relative;
+    display: block;
+    width: 50%;
+    padding: 0 100px;
+}
+.rightInfo h5, .leftInfo h5{
+    text-align: right;
+    font: normal normal bold 25px/12px Frutiger LT Arabic;
+    letter-spacing: 0.33px;
+    color: #6766CC;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+.infSub {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 50px 0;
+}
+.infSub p {
+    /* max-width: fit-content !important; */
+    width: 50%;
+    text-align: right;
+    font: normal normal normal 16px/12px Frutiger LT Arabic;
+    letter-spacing: 0.21px;
+    color: #161636;
+    opacity: 1;
+    margin: 30px 0;
+}
+.leftInfo .form-group, .leftInfo .form-group label {
+    margin-bottom: 25px;
+}
+.leftInfo .form-group label {
+    text-align: right;
+    font: normal normal bold 14px/12px Frutiger LT Arabic;
+    letter-spacing: 0.18px;
+    color: #6F787F;
+    opacity: 1;
+}
+.form-control {
+    direction: rtl !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C1C8CE !important;
+    border-radius: 10px !important;
+    opacity: 1;
+    text-align: right;
+    font: normal normal normal 12px/6px Frutiger LT Arabic;
+    letter-spacing: 0.18px;
+    color: #96A2AC;
+    opacity: 1;
+}
+.Hlf{
+    width: 50% !important;
+}
+.form-check.bb {
+    background: aliceblue;
+    width: fit-content;
+    padding: 20px 60px;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+button.btn.btn-primary {
+    text-align: center;
+    font: normal normal bold 16px/9px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 15px 25px 20px;
+    background: #6766CC 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+}
+textarea.form-control {
+    min-height: calc(1.5em + 5rem + 2px) !important;
+}
+.form-check.bb label.form-check-label {
+    text-align: right;
+    font: normal normal normal 14px/27px Frutiger LT Arabic;
+    letter-spacing: 0px;
+    color: #1E2432;
+    opacity: 1;
+}
+.socialIconsCont {
+    position: relative;
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-around;
+    background: #1b1b35;
+}
+.circleCont {
+    position: relative;
+    display: block;
+    padding: 35px;
+    background: #2c2c42;
+    border-radius: 50px;
+}
+/* .owl-stage {
+    width: 3333px !important;
+}
+.owl-item{
+    width: 650px !important;
+} */
+@media only screen and (max-width: 600px) {
+    .firSection .carousel-inner .carousel-item {
+        top: 0 !important;
+    }
+    .firSection .carousel-item h3 {
+        font: normal normal bold 34px Frutiger Arabic;
+        margin-right: 0;
+        padding: 0 40px;
+        margin-bottom: 50px;
+        max-width: max-content;
+    }
+    .firSection .carousel-item p {
+        width: 100%;
+        padding: 3px 40px;
+        font: normal normal normal 15px/40px Frutiger LT Arabic;
+        margin-right: 0;
+    }
+    .secSection {
+        display: block;
+        padding: 40px;
+    }
+    .secSection .d-block {
+        max-width: 100%;
+    }
+    .secSection .d-block h3 {
+        max-width: 100%;
+        font: normal normal bold 35px/65px Frutiger LT Arabic;
+    }
+    .secSection .d-block p {
+        text-align: right;
+        font: normal normal normal 18px/40px Frutiger LT Arabic;
+    }
+    .secSecImg {
+        width: 100%;
+    }
+    .TrdSection {
+        padding: 50px 40px;
+    }
+    .TrdSection h3 {
+        font: normal normal bold 35px/60px Frutiger LT Arabic;
+    }
+    .targetsContainer {
+        display: block;
+    }
+    .Target {
+        margin-bottom: 50px;
+        height: 370px;
+    }
+    .Target p {
+        width: 80%;
+    }
+    .qouteContainer {
+        height: 550px;
+    }
+    .qouteContainer .d-flex h3, .qouteContainer .d-block h3 {
+        font: normal normal bold 24px/45px Frutiger LT Arabic;
+        width: 100%;
+    }
+    .signconT {
+        bottom: -70px;
+        font: normal normal normal 15px/5px Frutiger LT Arabic;
+    }
+    .qouteContainer .d-flex, .qouteContainer .d-block {
+        margin: auto;
+    }
+    .container.tabSlider {
+        display: block;
+    }
+    .tabSlider .sideControls {
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding-right: 30px;
+    }
+    .container.tabSlider ul.nav.nav-tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: auto 0;
+    }
+    ul.nav.nav-tabs.heaDers li {
+        margin: 20px;
+    }
+    .tabSlider .owl-nav {
+        display: none !important;
+    }
+    .tabSlider .owl-item {
+        max-width: 250px;
+    }
+    .Footer {
+        padding: 50px 40px;
+        display: block;
+    }
+    .cols {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+    }
+    .Footer .cols .col {
+        max-width: -webkit-fill-available;
+        min-width: 120px;
+        margin-bottom: 50px;
+    }
+    .TitleSection {
+        padding: 0 50px;
+    }
+    .infoSection.d-block {
+        padding: 25px;
+    }
+    .infoSection.d-block h3 {
+        font: normal normal bold 25px Frutiger LT Arabic;
+        width: 100%;
+    }
+    .infoSection.d-block p {
+         width: 100%;
+    }
+    .header.container ul.nav.nav-pills{
+        display: block;
+    }
+    .header.container {
+        min-width: 100%;
+        height: 100vh;
+        display: block;
+        background: #38376e;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .mHidden{
+        display: none !important;
+    }
+    .header.container svg{
+        display: none;
+    }
+    .Lang {
+        text-align: right;
+        font: normal normal normal 16px/12px Frutiger LT Arabic;
+        letter-spacing: 0.21px;
+        color: #FFFFFF;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        height: fit-content;
+        margin-left: auto;
+        display: none;
+    }
+    .TitleSection {
+        height: 10vh;
+    }
+    .secSecImg img {
+        top: 0;
+    }
+    .contactMain {
+        display: block;
+    }
+    .rightInfo, .leftInfo {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .Footer .cols .col span {
+        font: normal normal normal 18px/26px Frutiger LT Arabic;
+    }
+    .qouteContainer img {
+        display: none;
+    }
+}
